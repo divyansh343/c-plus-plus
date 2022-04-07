@@ -37,7 +37,6 @@ int main()
     cout << "education -- " + education << endl ;
 
     cout << ", Chill your details were sold in dark web" << endl ;
-    cout << "Now Fuck OFF" << endl ;
     cout <<"Do you want to die " + first_name << endl;
 
     cin >> die;

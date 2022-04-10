@@ -45,16 +45,17 @@ int main()
         "nitish",
     };
 
-    do
-    {
-        for (int P = 0; P < 3; P++)
-        {
-            for (int i = 0; i < 11; i++)
-            {
-                cout << players[i] << endl;
-            }
-        }
-    } while (::host == "badepapa.com");
+    // do
+    // {
+    //     for (int P = 0; P < 3; P++)
+    //     {
+    //         for (int i = 0; i < 11; i++)
+    //         {
+    //             cout << players[i] << endl;
+    //         }
+    //     }
+    // } while (::host == "badepapa.com");
 
+ cout <<"size of players " << players << endl;
     return 0;
 }

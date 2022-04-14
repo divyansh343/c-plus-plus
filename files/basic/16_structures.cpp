@@ -8,7 +8,13 @@ struct chapri
     int age;
     float GDP;
 };
-
+typedef struct multichiran
+{
+    string name;
+    int age;
+    int values;
+    int salary;
+} chiran;
 int main()
 {
     struct chapri nigga; // initialize chapri struct with nigga name
@@ -21,14 +27,23 @@ int main()
     // cout << nigga << endl;
     cout << nigga.id << endl;
     cout << sizeof(nigga.displayName) << endl;
-    cout <<"age "<< nigga.age+1 << endl;
-    cout <<"age "<< nigga.age++ << endl;
+    cout << "age " << nigga.age + 1 << endl;
+    cout << "age " << nigga.age++ << endl;
     cout << sizeof(nigga.GDP) << endl;
 
-    enum cars {ckoda, parrari, dicklauren};
+    enum cars
+    {
+        ckoda,
+        parrari,
+        dicklauren
+    };
 
     cars me = dicklauren;
 
-    cout << "khgjkhfsjkhdf"<< me <<endl;
+    cout << "khgjkhfsjkhdf" << me << endl;
+
+    chiran danish;
+    danish.name = "dnish abudhabi";
+    cout << danish.name << endl;
     return 0;
 }

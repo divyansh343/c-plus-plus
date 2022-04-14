@@ -8,6 +8,7 @@
         "string": "cpp",
         "vector": "cpp",
         "iterator": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "random": "cpp"
     }
 }

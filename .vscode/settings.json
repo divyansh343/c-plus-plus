@@ -2,6 +2,13 @@
     "files.associations": {
         "*.html": "html",
         "iostream": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "iterator": "cpp",
+        "ostream": "cpp",
+        "random": "cpp"
     }
 }

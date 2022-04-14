@@ -9,6 +9,7 @@
         "vector": "cpp",
         "iterator": "cpp",
         "ostream": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "cstdlib": "cpp"
     }
 }

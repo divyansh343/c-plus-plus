@@ -10,6 +10,7 @@
         "iterator": "cpp",
         "ostream": "cpp",
         "random": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "typeinfo": "cpp"
     }
 }

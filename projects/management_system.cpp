@@ -8,6 +8,10 @@ void print(string);
 
 class slut
 {
+
+    private: // it can only use by class methods
+    void money();
+
 public:
     int id, rate, age, pot=0, energy=1000;
     string name, client;
@@ -17,7 +21,6 @@ public:
     void changeName(string, int);
     void fuck(string,int);
     void getRate();
-    void money();
 };
 void slut ::addSlut(string n,int a, int r)
 {
@@ -78,10 +81,10 @@ cout << "rate of " << name << " is " << rate << endl;
 }
 void slut ::getSlut()
 {
+    money();
     cout << setw(11) << "detais" <<endl;
     cout << id << " "<< name << " " << rate <<endl;
     cout <<"last client " << client <<endl;
-    cout <<"money " << pot <<endl;
 
 }
 void slut :: money()
@@ -103,8 +106,6 @@ int main()
     mia.getSlut();
     lisa.getSlut();
     cout << mia.energy << endl;
-    mia.money();
-    lisa.money();
 
     system("pause");
     return 0;

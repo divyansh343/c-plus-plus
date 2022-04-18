@@ -32,7 +32,7 @@ int main()
 
 do
 {
-  i++
+  i++;
   cout << i ;
 } while (i== 0);
 

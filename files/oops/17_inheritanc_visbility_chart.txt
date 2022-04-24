@@ -1,0 +1,6 @@
+base class     as public           as private        as protected
+
+private         not inherit       not inherit           not inherit
+protected       protected          private              protected
+public          public             private              protected
+
